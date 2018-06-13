@@ -3,7 +3,8 @@ git clone https://github.com/green-haskell/dramEnergyMeasuring.git
 bash ./dramEnergyMeasuring/installDependencies.sh
 
 
-\#To run: as root, in each abstraction directory
+\#To run all benchmarks, as root:
 
-make 2>&1 | tee fullOutput.txt
+cd dramEnergyMeasuring ; bash ./runAll.sh
+
 
